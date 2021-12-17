@@ -1,0 +1,19 @@
+{
+  "name": "vivo-lib-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guvenozgur/VivooLib.git"
+  },
+  "author": "H. Güven Özgür",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guvenozgur/VivooLib/issues"
+  },
+  "homepage": "https://github.com/guvenozgur/VivooLib#readme"
+}
