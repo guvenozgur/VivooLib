@@ -7,7 +7,7 @@
 
 ## About The Project
 
-### Tech Stackasd
+### Tech Stack
 
 Nodejs, express, mongoDB, redis, sinon, mocha, chai
 
