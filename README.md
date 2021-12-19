@@ -1,58 +1,41 @@
 <br />
 <div align="center">
  
-<img src="https://cdn-edbhp.nitrocdn.com/nAPtGrhbGgAbuaqhTfJzhljxolkRxugN/assets/static/optimized/rev-38a1a28/2021/11/vivoo-logo-new-website.svg" alt="Logo" width="80" height="80">
 <h3 align="center">VivooLib Project</h3>
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+
 
 ## About The Project
 
-### Built With
+### Tech Stackasd
+
+Nodejs, express, mongoDB, redis, sinon, mocha, chai
 
 ## Getting Started
 
 ### Prerequisites
+docker pull mongo </br>
+docker run -d -p 27017:27017 --name mongo mongo</br>
+docker pull redis</br>
+docker run -d -p 6379:6379 --name redis redis</br>
 
-### Installation
 
-## Usage
+
+
 
 ## Roadmap
 - [x] Prepare Project Base
-- [ ] Create Tables
-- [ ] Decide APIs
-- [ ] Create Test Cases
-- [ ] Develop Server Side
+- [x] Create Tables
+- [x] Decide APIs
+- [x] Create Test Cases
+- [x] Develop Server Side
+- [x] Integrate with Google Books
+- [x] Redis Integration
+- [ ] API Validation
+- [ ] Dockerize app
 - [ ] Develop Client Side
 
-## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contact
 
@@ -60,15 +43,14 @@ Güven Özgür - [@guvenozgur](https://www.linkedin.com/in/h%C3%BCseyin-g%C3%BCv
 
 Project Link: [https://github.com/guvenozgur/VivooLib](https://github.com/guvenozgur/VivooLib)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Acknowledgments
+
 
 <!--
 [Ref](https://ref.com)
 -->
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 </div>
